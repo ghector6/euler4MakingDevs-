@@ -4,7 +4,7 @@ for (let i = 10; i < 100; i++) {
         res = i * j;
         let numStr = res.toString().split("").reverse().join("");
         if (parseInt( numStr) === res){
-            console.log(numStr)
+            console.log(`${i} * ${j} => ${Math.max(numStr)}`)
         }
 
         
