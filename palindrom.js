@@ -1,10 +1,12 @@
 var res;
-for (let i = 10; i < 100; i++) {
-    for (let j =10; j < 100; j++) {
+var arr = [];
+for (let i = 100; i < 1000; i++) {
+    for (let j =100; j < 1000; j++) {
         res = i * j;
         let numStr = res.toString().split("").reverse().join("");
-        if (parseInt( numStr) === res){
-            console.log(`${i} * ${j} => ${Math.max(numStr)}`)
+        if (parseInt(numStr) === parseInt(res)){
+
+            console.log(`${i} * ${j} => ${numStr}`)
         }
 
         
