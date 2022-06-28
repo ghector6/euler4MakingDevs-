@@ -9,14 +9,6 @@ for (let i = 100; i < 1000; i++) {
             arr.push(parsedNumStr);
             
         }        
-        // console.log(numStr.split("").reverse().join(""))
-        // if (numStr.split("").reverse().join("") === res.toString()){
-        //     console.log("here")
-        // }
-        // console.log(typeof(numStr));
-        // if ( res % 2 === 0){
-        //     console.log(res)
-        }
-    }
-//}
+    }   
+}
 console.log(Math.max(...arr));
